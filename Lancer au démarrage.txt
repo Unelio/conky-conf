@@ -1,0 +1,11 @@
+LXDE
+================================================================================
+sudo nano ~/.config/lxsession/LXDE/autostart
+
+et ajouter la ligne
+@/bin/bash /home/philippe/.conky/conky-debian.sh
+
+
+MATE
+================================================================================
+Dans le menu "Applications au démarrage"
