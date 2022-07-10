@@ -1,4 +1,5 @@
 #!/bin/bash
+sleep 10
 killall conky
-sleep 5
-conky -c $HOME/.conky/Debian/conky.cfg
+sleep 10
+conky -c /home/philippe/.conky/Debian/conky.cfg
