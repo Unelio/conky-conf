@@ -1,0 +1,4 @@
+${font Roboto:style=normal:size=10}Brave : $alignr${execi 20 /opt/brave.com/brave/brave --version | cut -d " " -f 3}
+FileZilla : $alignr${execi 20 ~/.EXE/FileZilla/bin/filezilla -v | cut -d " " -f 2}
+Firefox : $alignr${execi 20 ~/.EXE/firefox/firefox -v | cut -d " " -f 3}
+Thunderbird : $alignr${execi 20 ~/.EXE/thunderbird/thunderbird -v | cut -d " " -f 3}
