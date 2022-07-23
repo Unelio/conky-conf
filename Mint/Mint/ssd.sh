@@ -8,5 +8,6 @@ then
   sudo hddtemp $2 | cut -d ":" -f 3 | xargs | cut -d "C" -f 1
 elif [ $1 = "name" ]
 then
-  sudo hddtemp $2 | cut -d ":" -f 2 | cut -d "_" -f 1 | xargs | cut -d " " -f 1
+  name=`sudo hddtemp $2 | cut -d ":" -f 2 | cut -d "_" -f 1 | xargs | cut -d " " -f 1`
+  echo ${name^^}
 fi
